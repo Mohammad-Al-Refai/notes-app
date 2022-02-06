@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background-color: $black-500;
+}
+
+//Components
+@import "./components/AuthContainer.scss";
+@import "./components/Inputs.scss";
+@import "./components/Text.scss";
+@import "./components/Button.scss";
+@import "./components/Header.scss";
+@import "./components/DashboardContainer.scss";
+@import "./components/Icons.scss";
+@import "./components/AddNote.scss";
+@import "./components/NotesList.scss";
+@import "./components/Note.scss";
+@import "./components/Modal.scss";

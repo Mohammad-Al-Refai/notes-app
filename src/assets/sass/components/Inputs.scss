@@ -1,0 +1,40 @@
+.input-filed {
+  background-color: $black-500;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+.input-filed::placeholder {
+  color: $gray-400;
+}
+.filed-error {
+  color: $error;
+}
+.input-filed-search {
+  background-color: #525356;
+  width: 50%;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+.input-filed-search::placeholder {
+  color: white;
+}
+.input-filed-title {
+  width: 100%;
+  border: 0px;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+}
+.input-filed-textarea {
+  width: 100%;
+  border: 0px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
